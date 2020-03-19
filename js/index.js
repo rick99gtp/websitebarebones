@@ -17,10 +17,10 @@ function emptyWebsite() {
     btnGetStarted.innerHTML = "GET STARTED";
     btnGetStarted.classList.add('btn');
     btnGetStarted.onclick=function() {
-        
+        let attrName = document.querySelector('.main-attr .attr h2');
+        attrName.innerHTML = 'Building Blocks';
     }
 
     newDiv.appendChild(btnGetStarted);
-
     mainDiv.appendChild(newDiv);
 }

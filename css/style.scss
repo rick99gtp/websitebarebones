@@ -20,7 +20,7 @@ header {
                 a {
                     text-decoration: none;
                     transition: .3s ease;
-                    
+
                     &:hover {
                         color: #fff;
                     }
@@ -49,6 +49,7 @@ header {
 
             h2 {
                 text-align: center;
+                padding: 5px;
             }
         }
     }
